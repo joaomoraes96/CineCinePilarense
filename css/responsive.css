@@ -1,0 +1,146 @@
+@media screen and (max-width: 900px) {
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+}
+
+header .btn-menu-mob {
+    display: block;
+}
+
+
+@media screen and (max-width: 878px){
+
+    /* Responsivo hero */ 
+
+ 
+    .hero-site .txt-hero h1{
+        font-size: 2.6em;
+        line-height: 45px;
+       
+    
+    }
+ 
+    .hero-site .txt-hero p{
+        font-size: 18px;
+        
+    
+    }
+    
+    .hero-site .txt-hero p span{
+        display: inline;
+        
+    }
+    
+    .hero-site button{
+        width: 200px;
+        font-size: 18px;
+    }
+
+    /* Responsivo história */
+  
+
+    .historia .itens-container{
+        flex-direction: column;
+    }
+
+    .historia .itens-container .img-itens img{
+        width: 100%;
+    }
+
+    .historia .itens-container .txt-itens p{
+        margin-bottom: 20px;
+    }
+
+    .historia .itens-container .txt-itens h3{
+        font-size: 2em;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .historia .itens-container .item-1{
+        order: 1;
+    }
+
+    .historia .itens-container .item-2{
+        order: 0;
+    }
+
+    .historia .itens-container .item-3{
+        order: 1;
+    }
+
+    .historia .itens-container .item-4{
+        order: 0;
+    }
+ 
+    /* responsivo contato */
+
+     .txt-contato, .icons-contato{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .contato .txt-contato h3{
+        font-size: 2em;
+        line-height: 40px;
+      
+    }
+
+    .contato .icons-contato button{
+        width: 100%;
+
+    }
+
+    .contato .txt-contato p{
+        margin-bottom: 20px;
+    }
+
+    /*  Responsive filmes */
+
+    section.filmes{
+        
+        background-image: url(../images/divertidamentemobile.jpeg) ;
+   
+    }
+    
+    .filmes h3{
+        font-size: 2.3em;
+        line-height: 40px;
+        
+    }
+
+    .filmes p{
+        margin: 20px 0;
+        font-size: 18px;
+    }
+
+
+    /* responsivo como funciona */
+
+    
+    .txt-funciona, .instrucoes{
+        display: block;
+        width: 100%;
+     
+    }
+
+    .como-funciona .txt-funciona{
+        position: static;
+      
+    }
+
+    .como-funciona .txt-funciona h3{
+        text-align: center;
+        font-size: 3em;
+        line-height: 50px;
+        
+    }
+
+    .instrucoes .instru-box{
+        text-align: center;
+    }
+   
+}
+
