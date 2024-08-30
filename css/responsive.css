@@ -2,11 +2,14 @@
     header .menu-desktop, header .btn-contato{
         display: none;
     }
+
+
+    header .btn-menu-mob {
+    display: block;
+    }
 }
 
-header .btn-menu-mob {
-    display: block;
-}
+
 
 
 @media screen and (max-width: 878px){

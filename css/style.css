@@ -113,7 +113,7 @@ header .btn-contato button{
 header .btn-menu-mob {
     display: none;
     position: relative;
-    z-index: 9999999999999999999999;
+    z-index: 9999999999999999999999; 
 }
 
 header .btn-menu-mob div{
