@@ -105,6 +105,10 @@
     section.filmes{
         
         background-image: url(../images/divertidamentemobile.jpeg) ;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
    
     }
     
