@@ -65,16 +65,16 @@ header.rolar{
 }
 
 header.rolar .menu-desktop nav ul li a{
-    color: #000;
+    color: #fff;
 }
 
 header.rolar .btn-contato button{
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid #fff;
+    color: #fff;
 }
 
 header.rolar .btn-contato button:hover{
-    background-color: #000;
+    background-color: #ffffff3b;
     color: #fff;
 }
 
@@ -161,7 +161,7 @@ header .btn-menu-mob .line-menumob-2.ativo2{
 header .menu-mobile{
     width: 0;
     height: 0;
-    background-color: #000000ef;
+    background-color: #020d3df1;
     position: absolute;
     top: 0;
     right: 0;
