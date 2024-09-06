@@ -18,6 +18,8 @@ let line1 = document.querySelector('.line-menumob-1')
 let line2 = document.querySelector('.line-menumob-2')
 let menuMobile = document.querySelector('#menu-mobile')
 
+let btnMobFechar = document.querySelector('#fechar-menu')
+let botaoClick = document.querySelector('.js-link')
 
 let body = document.querySelector('body')
 
@@ -31,16 +33,15 @@ btnMenuMob.addEventListener('click', ()=>{
    
 })
 
-
-
 //fechando ao clicar no botao menu mobile
 
-document.getElementById('menu-mobile').addEventListener('click', function () {
-    document.getElementById('fechar-menu').classList.toggle('menu-mobile');
-    
-});
+btnMobFechar.addEventListener('click', ()=>{
+    line1.classList.toggle('ativo1')
+    line2.classList.toggle('ativo2')    
+    menuMobile.classList.toggle('abrir')    
 
-
+   
+})
 
 
 // formulario
