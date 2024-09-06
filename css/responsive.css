@@ -87,7 +87,7 @@
     /* responsivo contato */
 
      .txt-contato, .icons-contato{
-        /* display: block; */
+        display: block;
         width: 100%;
         
     }

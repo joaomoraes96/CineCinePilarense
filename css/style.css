@@ -25,7 +25,7 @@ header .btn-contato button, .hero-site button, .filmes button{
 }
 
 header .btn-contato button:hover, .hero-site button:hover, .filmes button:hover{
-    background-color: #fff;
+    background-color: #ffffff;
     color: #000;
 
 
@@ -59,7 +59,7 @@ header .logo img{
 /* Estilo do menu dinâmico */
 
 header.rolar{
-    background-color: #fff;
+    background-color: #020d3d;
     padding: 5px 0;
     box-shadow: 0 0 8px #00000061;
 }
@@ -136,7 +136,7 @@ header .btn-menu-mob .line-menumob-2{
 }
 
 header.rolar .btn-menu-mob div{
-    background-color: #000;
+    background-color: #fff;
 }
 
 /* X do menu  */
