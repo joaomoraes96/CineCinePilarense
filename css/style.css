@@ -117,6 +117,7 @@ header .btn-menu-mob {
     z-index: 9999999999999999999999; 
 }
 
+
 header .btn-menu-mob div{
     background-color: #fff;
     height: 3px;
@@ -152,6 +153,8 @@ header .btn-menu-mob .line-menumob-2.ativo2{
     background-color: #fff;
     
 }
+
+
 
 /* Estilo do menu mobile botões */
 
@@ -199,9 +202,12 @@ header .menu-mobile.abrir{
     height: 100vh;
 }
 
+
 body.no-overflow{
     overflow: hidden;
 }
+
+
 /* Estilo do hero introdução site */
 
 section.hero-site{
