@@ -270,7 +270,7 @@ section.historia{
 .historia .itens-container .img-itens img{
     max-width: 480px;
     border-radius: 15px;
-    box-shadow: 6px 6px 0 #FF6F01;  
+    box-shadow: 6px 6px 0 red;  
 }
 
 .historia .itens-container .txt-itens h3{
