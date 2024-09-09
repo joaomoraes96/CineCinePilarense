@@ -1,6 +1,8 @@
 @media screen and (max-width: 900px) {
-    header .menu-desktop, header .btn-contato{
+    header .menu-desktop, header .btn-contato, selection .filmes{
         display: none;
+
+       
     }
 
 
@@ -115,8 +117,8 @@
 
     section.filmes{
         
-        background-image: url(../images/divertidamentemobile.jpeg) ;
-        max-width: 900px;
+        background-image: url(../images/divertidamentemobile.jpeg);
+        
         
         
    
