@@ -86,9 +86,11 @@
 
     /* responsivo contato */
 
+ 
      .txt-contato, .icons-contato{
         display: block;
         width: 100%;
+        
         
     }
 
@@ -98,10 +100,12 @@
       
     }
 
-    .contato .icons-contato button{
+    /* .contato .icons-contato button{
         width: 100%;
+        
 
-    }
+
+    } */
 
     .contato .txt-contato p{
         margin-bottom: 20px;
